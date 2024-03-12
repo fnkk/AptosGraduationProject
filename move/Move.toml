@@ -1,0 +1,15 @@
+[package]
+name = "GraduationProject"
+version = "1.0.0"
+authors = []
+
+[addresses]
+Linus = "0xe40637dfb70ffca08ccd27e5fca4a94f2756047bdf9b5b0e6c60d1df9c303d82"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
