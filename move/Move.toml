@@ -4,12 +4,18 @@ version = "1.0.0"
 authors = []
 
 [addresses]
-Linus = "0xe40637dfb70ffca08ccd27e5fca4a94f2756047bdf9b5b0e6c60d1df9c303d82"
+Linus = "0x75df934c490857c19bd73684903b61a3fcb5d40e9d8bec67b67d5c097c0d75fb"
 [dev-addresses]
 
 [dependencies.AptosFramework]
 git = "https://github.com/aptos-labs/aptos-core.git"
 rev = "mainnet"
 subdir = "aptos-move/framework/aptos-framework"
+
+[dependencies.AptosTokenObjects]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-token-objects"
+
 
 [dev-dependencies]
